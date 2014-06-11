@@ -1,5 +1,5 @@
 // problem: why does Ralph only bark once?
-// fix it to make Ralph bark twice!
+// fix it to make Ralph bark twice!!
   
  var Dog = function( name ) {
   this.name = name
