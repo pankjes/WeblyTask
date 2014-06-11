@@ -1,0 +1,69 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/wordfreq.js"></script>
+
+     
+     
+    </head>
+    <body>
+        <div>
+        <form id="calcForm">
+        <ol>
+        <li>
+        <label for="first">
+        First  Text Box
+        </label>
+        <input type="text" name="First Text Box" id="first" size="100">
+        </li>
+        <li>
+        <label for="first">
+        Second Text Box
+        </label>
+        <input type="text" name="Second Text Box" id="second" size="100">
+        </li>
+        <li>
+        <label for="first">
+        Third Text Box
+        </label>
+        <input type="text" name="Third Text Box" id="third" size="100">
+        </li>
+        <li>
+        <label for="first">
+        Fourth Text Box
+        </label>
+        <input type="text" name="Fourth Text Box" id="fourth" size="100">
+        </li>
+        <li>
+        <label for="first">
+        Fifth Text  Box
+        </label>
+        <input type="text" name="Fifth Text Box" id="fifth" size="100">
+        </li>
+        </ol>
+    </div>
+    <div>
+        <input type="submit" value="calculate" id="submit">
+    </div> 
+    </form>
+     <div class="span4 result">
+                                <h3 style="color: #PJPJPJ;">Display Panel</h3>
+                                <label>Total Number of Unique words :</label>
+                                <span id="fetchUniNo"></span><br>
+                                <label>Frequency of every Unique word :</label>
+                                
+                                    <table class="freqTable">
+                                        <!------this is the table for displaying the result of calc------>
+                                    </table>
+                                
+                            </div> 
+    </body>
+</html>
+    
