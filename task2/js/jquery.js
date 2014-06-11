@@ -12,6 +12,7 @@
  * Released under the MIT, BSD, and GPL Licenses.
  *
  * Date: Thu May 12 15:04:36 2011 -0400
+ *
  */
 
 /*! jQuery v1.7.2 jquery.com | jquery.org/license */
